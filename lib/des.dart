@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 class DescriptionPlace extends StatelessWidget {
+  DescriptionPlace(String s, int i, String descriptionDummy);
+
   @override
   Widget build(BuildContext context) {
     // TODO: implement build

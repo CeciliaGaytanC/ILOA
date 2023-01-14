@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:today/des.dart';
+import 'package:today/example.dart';
 import 'package:today/register.dart';
 
 //import 'button.txt';
@@ -31,6 +31,7 @@ class MyApp extends StatelessWidget {
 
 class MyHomePage extends StatefulWidget {
     const MyHomePage({Key? key}) : super(key: key);
+    
 
   @override
   State<MyHomePage> createState() => _MyHomePageState();
@@ -132,7 +133,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     print(passwordController.text);
                     if (_formKey.currentState!.validate()) {
                       Navigator.push(context,
-                          MaterialPageRoute(builder: (context) => DescriptionPlace()));
+                          MaterialPageRoute(builder: (context) => Registro()));
                       // Si el formulario es válido, queremos mostrar un Snackbar
                     } else {
                       ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
@@ -159,7 +160,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       Navigator.push(
                         context,
                         MaterialPageRoute(builder: (context) {
-                          return Registro();
+                          return Home();
                         }),
                       );
                     })
