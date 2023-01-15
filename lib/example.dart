@@ -24,7 +24,7 @@ class Home extends StatelessWidget {
         ),
         body: Stack (
           children:  <Widget>[
-            _imagenFondo(),
+            // _imagenFondo(),
             _textoCentro(),
           ],
           
@@ -34,14 +34,14 @@ class Home extends StatelessWidget {
   
     );
   }
-Widget _imagenFondo() {
-  return Image(
-    image:  AssetImage("assets/image/wp.jpeg"),
-  height:  double.infinity,
-  width: double.infinity,
-  fit:  BoxFit.cover,
-  );
-}
+// Widget _imagenFondo() {
+//   return Image(
+//     image:  AssetImage("assets/image/wp.jpeg"),
+//   height:  double.infinity,
+//   width: double.infinity,
+//   fit:  BoxFit.cover,
+//   );
+// }
 
 
 

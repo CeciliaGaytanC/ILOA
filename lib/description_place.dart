@@ -12,7 +12,7 @@ class DescriptionPlace extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-  
+    // TODO: implement build
 
     final star_half = Container (
       margin: EdgeInsets.only(
@@ -62,6 +62,7 @@ class DescriptionPlace extends StatelessWidget {
           child: Text(
             namePlace,
             style: TextStyle(
+              fontFamily: "Lato",
               fontSize: 30.0,
               fontWeight: FontWeight.w900
             ),
@@ -94,6 +95,7 @@ class DescriptionPlace extends StatelessWidget {
       child: new Text(
         descriptionPlace,
         style: const TextStyle(
+            fontFamily: "Dosis",
             fontSize: 16.0,
             fontWeight: FontWeight.bold,
             color: Color(0xFF56575a)
