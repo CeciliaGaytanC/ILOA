@@ -91,7 +91,7 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # 
-  fonts:
-    - family: Lato
-      fonts:
-        - asset: fonts/Lato-Regular.ttf
+  # fonts:
+  #   - family: Lato
+  #     fonts:
+  #       - asset: fonts/Lato-Regular.ttf
