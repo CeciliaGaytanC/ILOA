@@ -6,7 +6,9 @@ void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
-  String descriptionDummy = "Claudivfvnf.";
+  String descriptionDummy = "Claudivfvnf.lorem ipsum kdfmdhjrigfjreiugregfff ";
+
+   String descriptionDummy2 = "Claudivfvnf.lorem ipsum kdfmdhjrigfjreiugregvfghtfhgthrsyrmtyutru,ytu,ytutseytertwenytjnuygimui ";
   @override  
   Widget build(BuildContext context) {
     return MaterialApp(

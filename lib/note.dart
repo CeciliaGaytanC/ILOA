@@ -23,6 +23,7 @@ class Home extends StatelessWidget {
   }
 
 
+
   Widget _imagenFondo() {
     return Image(
       image: AssetImage('assets/image/wp.jpg'),
