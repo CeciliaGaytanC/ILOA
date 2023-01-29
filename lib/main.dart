@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'description_place.dart';
 import 'review_list.dart';
+import 'gradient.dart';
 // import 'gradient_back.dart';
 
 void main() => runApp(MyApp());
@@ -24,11 +25,13 @@ class MyApp extends StatelessWidget {
           children: <Widget>[
             ListView(
               children: <Widget>[
-                DescriptionPlace("Bahamas", 4, descriptionDummy),
-                ReviewList()
+              DescriptionPlace("Bahamas", 4, descriptionDummy),
+              ReviewList()
 
               ],
+
             ),
+          GradientBack("Menu")
             // GradientBack()
           ],
         ),

@@ -75,6 +75,7 @@ flutter:
   assets:
     - assets/img/girl.jpg
     - assets/img/ann.jpg
+    - assets/img/prueba.jpeg
 
   fonts: 
     - family: Lato
