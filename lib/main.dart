@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
       
 
-        primarySwatch: Colors.blue,
+        primarySwatch: Color.fromARGB(255, 83, 135, 177),
       ),
       home: Scaffold(
         //body: new DescriptionPlace("Bahamas", 4, descriptionDummy),
@@ -27,7 +27,6 @@ class MyApp extends StatelessWidget {
               children: <Widget>[
               DescriptionPlace("Bahamas", 4, descriptionDummy),
               ReviewList()
-
               ],
 
             ),
