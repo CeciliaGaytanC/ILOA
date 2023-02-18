@@ -1,4 +1,6 @@
 import'package:flutter/material.dart';
+import 'package:today/Button.dart';
+import 'package:today/task.dart';
 
 class DescriptionPlace extends StatelessWidget{
   String namePlace;
@@ -91,9 +93,13 @@ class DescriptionPlace extends StatelessWidget{
     );
 
     return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        title_stars,
-        description,
+        // title_stars,
+        // description,
+        // ButtonPurple("Navegar"),
+        task()
+
       ],
     );
   }

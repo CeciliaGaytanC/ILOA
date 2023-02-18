@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:today/taskv.dart';
 import 'description_place.dart';
 import 'review_list.dart';
 import 'gradient.dart';
@@ -17,20 +18,23 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
       
 
-        primarySwatch: Color.fromARGB(255, 83, 135, 177),
+        primarySwatch: Colors.blue,
       ),
       home: Scaffold(
         //body: new DescriptionPlace("Bahamas", 4, descriptionDummy),
         body: Stack(
           children: <Widget>[
-            ListView(
-              children: <Widget>[
-              DescriptionPlace("Bahamas", 4, descriptionDummy),
-              ReviewList()
-              ],
+            // ListView(
+            //   // children: <Widget>[
+            //   // DescriptionPlace("Bahamas", 4, descriptionDummy),
+            //   // ReviewList(),
+            //   // task()
 
-            ),
-          GradientBack("Menu")
+            //   ],
+
+            // ),
+          // GradientBack("Paleteria")
+          taskv(),
             // GradientBack()
           ],
         ),
