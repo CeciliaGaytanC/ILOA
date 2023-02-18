@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:today/task.dart';
 import 'package:today/taskv.dart';
 import 'description_place.dart';
 import 'review_list.dart';
@@ -34,7 +35,7 @@ class MyApp extends StatelessWidget {
 
             // ),
           // GradientBack("Paleteria")
-          taskv(),
+          task(),
             // GradientBack()
           ],
         ),
