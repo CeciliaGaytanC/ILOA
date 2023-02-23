@@ -9,14 +9,28 @@ class Home extends StatelessWidget{
 debugShowCheckedModeBanner: false,
 title: "ejemplo",
 theme: ThemeData(primaryColor: Colors.blueGrey,),
-home: Scaffold(
-  appBar:  AppBar(
-    leading: Icon(Icons.home),
-    title: Text("ejem")
-),
-   ),
+home: _ejemplooo()
    );
   }
 
 }
+Widget _ejemplooo(){
+  return  Scaffold(
+  appBar:  AppBar(
+    leading: Icon(Icons.home),
+    title: Text("ejem")
+),
+   );
 
+
+}
+
+
+
+
+//home:  Scaffold(
+//   appBar:  AppBar(
+//     leading: Icon(Icons.home),
+//     title: Text("ejem")
+// ),
+//    ),
